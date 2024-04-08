@@ -1,0 +1,10 @@
+quarkus:
+  message: 'default message'
+
+  '%Teste':
+    quarkus:
+      message: 'teste message'
+
+      '%Int':
+        quarkus:
+          message: 'int message'
